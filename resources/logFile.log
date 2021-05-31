@@ -1,0 +1,9 @@
+[ERROR] 2021-05-31 21:44:16.764 [main] Main - null
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Scanner.java:939) ~[?:?]
+	at java.util.Scanner.next(Scanner.java:1594) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2258) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2212) ~[?:?]
+	at com.sparta.jian.System.Input.inputNumbers(Input.java:12) ~[classes/:?]
+	at com.sparta.jian.System.Starter.start(Starter.java:24) [classes/:?]
+	at com.sparta.jian.System.Main.main(Main.java:7) [classes/:?]
