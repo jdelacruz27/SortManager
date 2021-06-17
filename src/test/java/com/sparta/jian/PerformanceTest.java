@@ -3,16 +3,26 @@ package com.sparta.jian;
 import com.sparta.jian.Sorter.BinaryTreeSortImplementation;
 import com.sparta.jian.Sorter.BubbleSort;
 import com.sparta.jian.Sorter.MergeSort;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.Random;
 
 public class PerformanceTest {
-    BubbleSort bubbleSort = new BubbleSort();
-    MergeSort mergeSort = new MergeSort();
-    BinaryTreeSortImplementation binaryTree = new BinaryTreeSortImplementation();
-    Random rand = new Random();
+
+    BubbleSort bubbleSort;
+    MergeSort mergeSort;
+    BinaryTreeSortImplementation binaryTree;
+    Random rand;
+
+    @BeforeEach
+    public void init(){
+        bubbleSort = new BubbleSort();
+        mergeSort = new MergeSort();
+        binaryTree = new BinaryTreeSortImplementation();
+        rand = new Random();
+    }
 
 
     @Test

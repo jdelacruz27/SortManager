@@ -5,7 +5,7 @@ import com.sparta.jian.Interface.Sorter;
 
 import java.util.Arrays;
 
-public class BubbleSort extends SorterAlgorithm implements Sorter {
+public class BubbleSort implements Sorter {
 
     @Override
     public int[] sortArray(int[] arrayToSort) {

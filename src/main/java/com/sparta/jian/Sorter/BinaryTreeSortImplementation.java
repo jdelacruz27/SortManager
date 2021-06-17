@@ -2,13 +2,17 @@ package com.sparta.jian.Sorter;
 
 import com.sparta.jian.Exception.ChildNotFoundException;
 import com.sparta.jian.Interface.BinaryTree;
+import com.sparta.jian.Interface.Sorter;
+import com.sparta.jian.System.Input;
 
 
-public class BinaryTreeSortImplementation extends SorterAlgorithm implements BinaryTree {
+public class BinaryTreeSortImplementation  implements BinaryTree, Sorter {
     private Node rootNode;
     private int numberOfNodes = 1;
     private int[] sorted;
     private int count;
+
+
 
 
     //Inner Class Node
@@ -22,8 +26,20 @@ public class BinaryTreeSortImplementation extends SorterAlgorithm implements Bin
         }
     }
 
-
-    public BinaryTreeSortImplementation() {
+    @Override
+    public int[] sortArray(int[] arrayToSort) {
+        addElements(arrayToSort);
+        int option = Input.whichOrder();
+        int[] sorted = new int[arrayToSort.length];
+        if (option == 1){
+            sorted = getSortedTreeAsc();
+        } else if (option == 2){
+            sorted = getSortedTreeDesc();
+        } else {
+            System.out.println("Not a valid entry. Will sort by acending order by default.");
+            sorted = getSortedTreeAsc();
+        }
+        return sorted;
     }
 
 

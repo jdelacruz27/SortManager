@@ -2,7 +2,7 @@ package com.sparta.jian.System;
 
 
 import com.sparta.jian.Factory.SortFactory;
-import com.sparta.jian.Sorter.SorterAlgorithm;
+import com.sparta.jian.Interface.Sorter;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;
@@ -14,7 +14,6 @@ public class Starter {
     public static void start() {
         long start;
         long end;
-        SortFactory sortFactory = new SortFactory();
         int option;
         int[] arrayNumbers;
         int inOrder;
@@ -24,43 +23,34 @@ public class Starter {
                 case 1:
                     arrayNumbers = Input.inputNumbers();
                     System.out.println("Array to sort:\n" + Arrays.toString(arrayNumbers));
-                    SorterAlgorithm sortAlgo2 = sortFactory.getSort(1);
+                    Sorter bubbleSort = SortFactory.getSort(1);
                     start = System.nanoTime();
-                    System.out.println("Sorted array:\n" + Arrays.toString(sortAlgo2.sortArray(arrayNumbers)));
+                    System.out.println("Sorted array:\n" + Arrays.toString(bubbleSort.sortArray(arrayNumbers)));
                     end = System.nanoTime();
-                    System.out.println("Time taken to sort the array: " + (end - start) + "ns");
+                    System.out.println("Time taken to sort the array: " + (end - start)/1000000 + "ms");
                     break;
                 case 2:
                     arrayNumbers = Input.inputNumbers();
                     System.out.println("Array to sort:\n" + Arrays.toString(arrayNumbers));
-                    SorterAlgorithm mergeSort = sortFactory.getSort(2);
+                    Sorter mergeSort = SortFactory.getSort(2);
                     start = System.nanoTime();
                     System.out.println("Sorted array:\n" + Arrays.toString(mergeSort.sortArray(arrayNumbers)));
                     end = System.nanoTime();
-                    System.out.println("Time taken to sort the array: " + (end - start) + "ns");
+                    System.out.println("Time taken to sort the array: " + (end - start)/1000000 + "ms");
                     break;
 
                 case 3:
                     arrayNumbers = Input.inputNumbers();
-                    inOrder = Input.whichOrder();
                     System.out.println("Array to sort:\n" + Arrays.toString(arrayNumbers));
-                    SorterAlgorithm tree = sortFactory.getSort(3);
-                    tree.addElements(arrayNumbers);
-                    if (inOrder == 1){
-                        start = System.nanoTime();
-                        System.out.println("Sorted array:\n" + Arrays.toString(tree.getSortedTreeAsc()));
-                        end = System.nanoTime();
-                        System.out.println("Time taken to sort the array: " + (end - start) + "ns");
-                    } else if (inOrder == 2){
-                        start = System.nanoTime();
-                        System.out.println("Sorted array:\n" + Arrays.toString(tree.getSortedTreeDesc()));
-                        end = System.nanoTime();
-                        System.out.println("Time taken to sort the array: " + (end - start) + "ns");
-                    }
+                    Sorter tree = SortFactory.getSort(3);
+                    start = System.nanoTime();
+                    System.out.println("Sorted array:\n" + Arrays.toString(tree.sortArray(arrayNumbers)));
+                    end = System.nanoTime();
+                    System.out.println("Time taken to sort the array: " + (end - start)/1000000 + "ms");
 
                     break;
                 default:
-                    System.out.println("Invalid input. Please select enter a number corresponding to a sorter");
+                    System.out.println("Invalid input. Please select enter a number corresponding to a bubbleSort");
             }
         } catch (InputMismatchException e) {
             Logging.logger.error(e.getMessage(), e);

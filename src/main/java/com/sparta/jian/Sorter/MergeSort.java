@@ -4,7 +4,7 @@ import com.sparta.jian.Interface.Sorter;
 
 import java.util.Arrays;
 
-public class MergeSort extends SorterAlgorithm implements Sorter {
+public class MergeSort implements Sorter {
 
 
     @Override
