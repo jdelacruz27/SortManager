@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1924fdbd-5e95-4bc1-99a4-61517cb0bd7b" name="Default Changelist" comment="Adding SortManager Project into Sortmanager repo">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jian/BinaryTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jian/BubbleSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jian/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sparta.jian.BubbleSortTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sparta.jian.MainTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sparta.jian.MergeSortTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sparta.jian.PerformanceTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.sparta.jian.BubbleSortTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.sparta.jian.MainTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.sparta.jian.MergeSortTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.sparta.jian.PerformanceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Factory/SortFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Factory/SortFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Sorter/BinaryTreeSortImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Sorter/BinaryTreeSortImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Sorter/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Sorter/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Sorter/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Sorter/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jian/Sorter/SorterAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/jian/System/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/jian/System/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jian/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/jian/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/jian/PerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/jian/Factory/SortFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/jian/Factory/SortFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/jian/Sorter/BinaryTreeSortImplementation$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/jian/Sorter/BinaryTreeSortImplementation$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/jian/Sorter/BinaryTreeSortImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/jian/Sorter/BinaryTreeSortImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/jian/Sorter/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/jian/Sorter/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/jian/Sorter/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/jian/Sorter/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sparta/jian/System/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sparta/jian/System/Starter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sparta/jian/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sparta/jian/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
